@@ -1,2 +1,0 @@
-- main prop in package.json is used for CJS entry point
-- module prop in package.json is used for ESM entry point
