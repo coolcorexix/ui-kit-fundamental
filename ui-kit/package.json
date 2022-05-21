@@ -1,8 +1,13 @@
 {
-  "name": "ui-kit",
-  "version": "0.0.1",
+  "name": "@coolcorexix/ui-kit",
+  "version": "0.0.2",
   "description": "nemo collector ui kit ",
   "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup-build": "rollup -c"
@@ -11,11 +16,18 @@
   "license": "ISC",
   "dependencies": {
     "@types/styled-components": "^5.1.25",
-    "react": "^18.1.0",
+    "@zerollup/ts-transform-paths": "^1.7.18",
+    "react": "17.0.2",
     "rollup": "^2.74.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.31.2",
     "styled-components": "^5.3.5",
+    "ttypescript": "^1.5.13",
     "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "react": "17.0.2",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.3.0"
