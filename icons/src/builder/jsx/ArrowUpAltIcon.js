@@ -1,0 +1,1 @@
+import*as React from"react";function ArrowUpAltIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"m16.0142 10.6191-1.41 1.41-5.59004-5.58996-5.59 5.58996-1.41-1.41 7-6.99996 7.00004 6.99996Z",fill:t.color||"#FFF"}))}export default ArrowUpAltIcon;

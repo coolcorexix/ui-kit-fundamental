@@ -1,0 +1,1 @@
+import*as React from"react";function DiffIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M5 1h2v4h4v2H7v4H5V7H1V5h4V1ZM11 15H1v2h10v-2Z",fill:t.color||"#FFF"}))}export default DiffIcon;

@@ -1,0 +1,1 @@
+import*as React from"react";function ReplyIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M8 5.87083V2L1 8.63333 8 15v-3.6962c4.7222 0 7.6389 1.4733 10 4.6962-.9444-4.6042-3.3889-9.20833-10-10.12917Z",fill:t.color||"#FFF"}))}export default ReplyIcon;

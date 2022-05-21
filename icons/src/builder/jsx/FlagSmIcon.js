@@ -1,0 +1,1 @@
+import*as React from"react";function FlagSmIcon(e){return React.createElement("svg",Object.assign({width:e.width,height:e.width,fill:e.color,xmlns:"http://www.w3.org/2000/svg"},e),React.createElement("path",{fillRule:"evenodd",clipRule:"evenodd",d:"M2 2v10h2V8h2.6L7 9h4V3H7.5L7 2H2Z",fill:e.color||"#FFF"}))}export default FlagSmIcon;

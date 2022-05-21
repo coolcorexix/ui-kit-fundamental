@@ -1,0 +1,1 @@
+import*as React from"react";function CodeIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M8 4.41 6.59 3 .589996 9 6.59 15 8 13.59 3.41 9 8 4.41ZM10 4.41 11.41 3l6 6-6 6L10 13.59 14.59 9 10 4.41Z",fill:t.color||"#FFF"}))}export default CodeIcon;

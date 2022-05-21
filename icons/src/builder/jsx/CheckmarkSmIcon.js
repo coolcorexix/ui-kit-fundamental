@@ -1,0 +1,1 @@
+import*as React from"react";function CheckmarkSmIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M13 3.41 11.59 2 5 8.59 2.41 6 1 7.41l4 4 8-8Z",fill:t.color||"#FFF"}))}export default CheckmarkSmIcon;

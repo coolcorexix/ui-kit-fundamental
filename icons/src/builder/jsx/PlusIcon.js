@@ -1,0 +1,1 @@
+import*as React from"react";function PlusIcon(e){return React.createElement("svg",Object.assign({width:e.width,height:e.width,fill:e.color,xmlns:"http://www.w3.org/2000/svg"},e),React.createElement("path",{fillRule:"evenodd",clipRule:"evenodd",d:"M10 2H8v6H2v2h6v6h2v-6h6V8h-6V2Z",fill:e.color||"#FFF"}))}export default PlusIcon;

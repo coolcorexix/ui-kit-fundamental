@@ -1,0 +1,1 @@
+import*as React from"react";function DownloadSmIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M12.5 5H9V1H5v4H1.5L7 10.5 12.5 5ZM1 11v2h12v-2H1Z",fill:t.color||"#FFF"}))}export default DownloadSmIcon;

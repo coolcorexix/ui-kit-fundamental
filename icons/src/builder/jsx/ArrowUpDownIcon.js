@@ -1,0 +1,1 @@
+import*as React from"react";function ArrowUpDownIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"m9 1 7 7H2l7-7ZM9 17l7-7H2l7 7Z",fill:t.color||"#FFF"}))}export default ArrowUpDownIcon;

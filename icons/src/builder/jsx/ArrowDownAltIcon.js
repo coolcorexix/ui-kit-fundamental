@@ -1,0 +1,1 @@
+import*as React from"react";function ArrowDownAltIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"m16.0142 7.42843-1.41-1.41-5.59004 5.58997-5.59-5.58997-1.41 1.41 7 6.99997 7.00004-6.99997Z",fill:t.color||"#FFF"}))}export default ArrowDownAltIcon;

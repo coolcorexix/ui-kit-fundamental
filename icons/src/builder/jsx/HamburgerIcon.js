@@ -1,0 +1,1 @@
+import*as React from"react";function HamburgerIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M2 3h14v2H2V3ZM2 8h14v2H2V8ZM16 13H2v2h14v-2Z",fill:t.color||"#FFF"}))}export default HamburgerIcon;

@@ -1,0 +1,1 @@
+import*as React from"react";function MinusIcon(e){return React.createElement("svg",Object.assign({width:e.width,height:e.width,fill:e.color,xmlns:"http://www.w3.org/2000/svg"},e),React.createElement("path",{fillRule:"evenodd",clipRule:"evenodd",d:"M4 8v2h10V8H4Z",fill:e.color||"#FFF"}))}export default MinusIcon;

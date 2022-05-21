@@ -1,0 +1,1 @@
+import*as React from"react";function ColumnsIcon(e){return React.createElement("svg",Object.assign({width:e.width,height:e.width,fill:e.color,xmlns:"http://www.w3.org/2000/svg"},e),React.createElement("path",{fillRule:"evenodd",clipRule:"evenodd",d:"M1 16h4V2H1v14Zm6 0h4V2H7v14Zm6 0V2h4v14h-4Z",fill:e.color||"#FFF"}))}export default ColumnsIcon;

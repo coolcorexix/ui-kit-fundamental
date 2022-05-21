@@ -1,0 +1,1 @@
+- rimraf is rm -rf of nodejs

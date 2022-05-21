@@ -1,0 +1,1 @@
+import*as React from"react";function SpeechBubbleRightIcon(e){return React.createElement("svg",Object.assign({width:e.width,height:e.width,fill:e.color,xmlns:"http://www.w3.org/2000/svg"},e),React.createElement("path",{d:"M14 15H3c-1.08933 0-2-.9107-2-2V4c0-1.1.9-2 2-2h12c1.0893 0 2 .91067 2 2v14l-3-3Z",fill:e.color||"#FFF"}))}export default SpeechBubbleRightIcon;

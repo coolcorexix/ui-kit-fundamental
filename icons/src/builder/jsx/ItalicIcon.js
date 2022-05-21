@@ -1,0 +1,1 @@
+import*as React from"react";function ItalicIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M7 3v2h2.58l-3.66 8H3v2h8v-2H8.42l3.66-8H15V3H7Z",fill:t.color||"#FFF"}))}export default ItalicIcon;

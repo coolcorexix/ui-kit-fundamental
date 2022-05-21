@@ -1,0 +1,1 @@
+import*as React from"react";function MergeIcon(e){return React.createElement("svg",Object.assign({width:e.width,height:e.width,fill:e.color,xmlns:"http://www.w3.org/2000/svg"},e),React.createElement("path",{d:"M5.44536 3H1v2h3.55464l3.6 4-3.6 4H1v2h4.44536l4.5-5H13v3l4-4-4-4v3H9.94536l-4.5-5Z",fill:e.color||"#FFF"}))}export default MergeIcon;

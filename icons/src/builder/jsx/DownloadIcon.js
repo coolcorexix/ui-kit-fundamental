@@ -1,0 +1,1 @@
+import*as React from"react";function DownloadIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M16 7h-4V2c0-.55228-.4477-1-1-1H7c-.55228 0-1 .44772-1 1v5H2l7 7 7-7ZM2 15v2h14v-2H2Z",fill:t.color||"#FFF"}))}export default DownloadIcon;

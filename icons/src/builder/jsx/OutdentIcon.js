@@ -1,0 +1,1 @@
+import*as React from"react";function OutdentIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M16 4H2V2h14v2ZM8 6v2h8V6H8ZM16 16H2v-2h14v2ZM8 12h8v-2H8v2ZM1.5 9 6 5v8L1.5 9Z",fill:t.color||"#FFF"}))}export default OutdentIcon;

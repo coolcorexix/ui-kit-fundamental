@@ -1,0 +1,1 @@
+import*as React from"react";function TrendingNoneIcon(e){return React.createElement("svg",Object.assign({width:e.width,height:e.width,fill:e.color,xmlns:"http://www.w3.org/2000/svg"},e),React.createElement("path",{d:"M5 8V5L1 9l4 4v-3h8v3l4-4-4-4v3H5Z",fill:e.color||"#FFF"}))}export default TrendingNoneIcon;

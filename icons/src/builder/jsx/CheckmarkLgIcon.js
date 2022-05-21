@@ -1,0 +1,1 @@
+import*as React from"react";function CheckmarkLgIcon(e){return React.createElement("svg",Object.assign({width:e.width,height:e.width,fill:e.color,xmlns:"http://www.w3.org/2000/svg"},e),React.createElement("path",{fillRule:"evenodd",clipRule:"evenodd",d:"m6 14 8 8L30 6v8L14 30l-8-8v-8Z",fill:e.color||"#FFF"}))}export default CheckmarkLgIcon;

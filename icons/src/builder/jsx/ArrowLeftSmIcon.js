@@ -1,0 +1,1 @@
+import*as React from"react";function ArrowLeftSmIcon(t){return React.createElement("svg",Object.assign({width:t.width,height:t.width,fill:t.color,xmlns:"http://www.w3.org/2000/svg"},t),React.createElement("path",{d:"M9 11V3L5 7l4 4Z",fill:t.color||"#FFF"}))}export default ArrowLeftSmIcon;

@@ -1,2 +1,2 @@
-ui-kit/dist
-ui-kit/node_modules
+*/**/dist
+*/**/node_modules

@@ -1,11 +1,31 @@
 {
-  "name": "icons",
+  "name": "@coolcorexix/icons",
   "version": "0.0.1",
-  "description": "stack icons made for reactjs usage",
-  "main": "index.js",
+  "description": "stack icons made for reactjs usage (2nd revamp)",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize-icons": "rimraf ./src/builder/optimized & svgo -p 8 -f ./src/builder/raw -o ./src/builder/optimized",
+    "build-icons": "node ./src/builder/build.js",
+    "build-package": "rollup -c"
   },
   "author": "nemo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "@svgr/cli": "^5.5.0",
+    "@svgr/core": "^5.5.0",
+    "camelcase": "^6.3.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.74.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "svgo": "^2.8.0",
+    "terser": "^5.13.1"
+  }
 }
